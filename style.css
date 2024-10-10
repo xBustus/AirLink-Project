@@ -4,42 +4,37 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center; /* Alinha ao centro horizontalmente */
-  align-items: flex-start; /* Alinha ao topo */
-  min-height: 100vh;
   background: linear-gradient(180deg, #000080, #0000cd); /* Fundo em degradê */
+  min-height: 100vh
 }
 
-/* Barra de navegação */
-
+/* Contêiner principal */
 .container-mae {
   display: flex;
+  flex-direction: column; /* Muda a direção para coluna */
   max-width: 1600px;
-  margin-top: 40px;
+  margin: 40px auto; /* Centraliza o contêiner */
   padding: 20px;
   background-color: #ffffff;
   border-radius: 20px;
-  max-height: 60px;
 }
 
-
+/* Barra de navegação */
 .container-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between; /* Garante espaçamento igual */
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
 }
 
 .font-all {
   font-family: "Days One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 /* Logotipo */
@@ -48,9 +43,6 @@ body {
   font-weight: bold;
   color: #000000;
   margin-right: 20px;
-  font-family: "Days One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 /* Links de navegação */
@@ -75,10 +67,9 @@ body {
 /* Botões de login e inscrição */
 .buttons {
   display: flex;
-  justify-content: space-between;
   gap: 10px;
-  padding-left: 800px;
 } 
+
 .login-btn {
   background-color: #cfcfcf;
   border: none;
@@ -106,4 +97,10 @@ body {
 
 .signup-btn:hover {
   background-color: #333333;
+}
+
+/* Estilo do carrossel */
+#carouselExampleIndicators {
+  width: 50%; /* Faz o carrossel ocupar toda a largura */
+  margin: 8rem 0 0 25%; /* Adiciona espaço entre a barra de navegação e o carrossel */
 }
