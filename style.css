@@ -4,8 +4,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, #000080, #0000cd); /* Fundo em degradê */
-  min-height: 100vh
+  background: linear-gradient(to top, #010162, #0000cd); /* Fundo em degradê */
+  min-height: 100vh;
 }
 
 /* Contêiner principal */
@@ -68,7 +68,7 @@ body {
 .buttons {
   display: flex;
   gap: 10px;
-} 
+}
 
 .login-btn {
   background-color: #cfcfcf;
@@ -103,4 +103,148 @@ body {
 #carouselExampleIndicators {
   width: 50%; /* Faz o carrossel ocupar toda a largura */
   margin: 8rem 0 0 25%; /* Adiciona espaço entre a barra de navegação e o carrossel */
+}
+
+.blocos {
+  margin-top: 170px;
+}
+
+.right-block {
+  text-align: right;
+}
+
+.bloco {
+  margin-bottom: 160px;
+  padding: 20px;
+}
+
+.fonte-titulo {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.fonte-paragrafo {
+  font-family: "Days One", sans-serif;
+  font-size: 24px;
+  color: #c4c4c4;
+}
+
+.apoie {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #000;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  font-family: "Days One", sans-serif;
+  position: relative;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column; /* Alinhar verticalmente */
+  align-items: flex-start; /* Alinhar à esquerda */
+}
+
+.footer-content h2 {
+  font-size: 3em;
+}
+
+.social-icons {
+  margin-top: 40px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 37px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.qr-code img {
+  position: absolute;
+  bottom: 20px; /* Ajuste a distância do fundo */
+  right: 2px; /* Ajuste a distância da direita */
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+}
+
+.titulo-about {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.subtitulo-about {
+  font-family: "Days One", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  margin: 30px 0 30px 0;
+}
+
+.container-about {
+  align-items: center;
+  text-align: center;
+}
+
+.p-about {
+  font-family: "Days One", sans-serif;
+  font-size: 24px;
+  color: #c4c4c4;
+}
+
+.p-t-about {
+  font-family: "Days One", sans-serif;
+  font-size: 36px;
+  color: #c4c4c4;
+
+  margin-bottom: 100px;
+}
+
+/* CSS TEMPLATES */
+
+.card {
+  margin: 0 0 0 50px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn-card {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 5rem 0 0 25%;
+
+}
+
+.outside-text-color{
+  color:  #ffffffa3;
+}
+
+.btn-submit{
+  width: 100px;
 }
