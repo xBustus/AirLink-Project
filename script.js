@@ -16,23 +16,3 @@ email.addEventListener("click", () => {
   window.location.href = "mailto:id586173@live.com";
 });
 
-let companies = `[
-    {
-        "name": "Big Company",
-        "numberOfEmployees": 10000,
-        "ceo": "mary",
-        "rating": 3.6
-    },
-    {
-        "name": "Small Startup",
-        "numberOfEmployees": 3,
-        "ceo": null,
-        "rating": 4.3
-    }
-]`;
-
-console.log(JSON.parse(companies)[0].name);
-console.log(JSON.parse(companies)[0].ceo);
-console.log(JSON.parse(companies)[1].name);
-console.log(JSON.parse(companies)[1].ceo);
-// console.log(companies)
