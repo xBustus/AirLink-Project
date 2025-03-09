@@ -1,4 +1,4 @@
-# AirLink
+# AirLink (Em desenvolvimento)
 
 **AirLink** é um projeto open source criado para oferecer uma alternativa 100% gratuita ao LinkTree. Com ele, você pode criar uma página personalizada para compartilhar links com facilidade, sem custos. A ideia é fornecer todas as funcionalidades que você já conhece, como personalização de temas e links, mas sem a necessidade de pagar por um serviço.
 
