@@ -11,7 +11,7 @@
 
 ## Tecnologias
 
-- **Frontend**: HTML5, CSS3, JavaScript (Tailwind, Next.js)
+- **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: Node.js, Express.js
 - **Banco de dados**: PostgreSQL
 - **Autenticação**: JWT (JSON Web Tokens)
